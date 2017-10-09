@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/fuli1/fuli1",
+    "pages/fuli2/fuli2",
+    "pages/fuli3/fuli3",
+    "pages/fuli4/fuli4"
+  ],
+  "window":{
+    "backgroundTextStyle":"drak",
+    "navigationBarBackgroundColor": "#3b414c",
+    "navigationBarTitleText": "福利照片墙",
+    "navigationBarTextStyle":"#f6c63f",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/fuli1/fuli1",
+      "text": "大胸妹",
+      "iconPath":"img/1.png",
+      "selectedIconPath":"img/2.png"
+    }, 
+    {
+      "pagePath": "pages/fuli2/fuli2",
+      "text": "性感妹",
+      "iconPath":"img/3.png",
+      "selectedIconPath":"img/4.png"
+    }, 
+    {
+      "pagePath": "pages/fuli3/fuli3",
+      "text": "大长腿",
+      "iconPath":"img/5.png",
+      "selectedIconPath":"img/6.png"
+    }, 
+    {
+      "pagePath": "pages/fuli4/fuli4",
+      "text": "黑丝袜",
+      "iconPath":"img/7.png",
+      "selectedIconPath":"img/8.png"
+    }],
+    "color": "#fff",
+    "selectedColor": "#f6c63f",
+    "backgroundColor": "#3b414c"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

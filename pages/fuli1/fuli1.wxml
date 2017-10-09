@@ -1,0 +1,23 @@
+<!--index.wxml-->
+
+<view class="section">
+<button size="mini" class="back" type="primary" bindtap='back'>上一页</button>
+<button size="mini" class="next" type="primary" bindtap='onPullDownRefresh'>下一页</button>
+<label class="section__types"><text>类型代号：34-40</text></label>
+<input class="num"  confirm-type="go"
+  bindinput="bindKeyInput1"  maxlength="2"
+   placeholder="{{types}}"
+   bindconfirm="confirm1"/>
+<label class="section__index"><text>页数</text></label>
+  <input class="num" confirm-type="go"  maxlength="2"
+  bindinput="bindKeyInput2"
+   placeholder="{{index}}"
+   bindconfirm="confirm2"/>
+
+</view>
+
+<view class="box" wx:for="{{dataList}}" wx:if="{{item.thumb}}" wx:key="index">
+
+  <text>{{item.title}}</text>
+  <image mode="widthFix" src="{{item.thumb}}"></image>
+</view>
